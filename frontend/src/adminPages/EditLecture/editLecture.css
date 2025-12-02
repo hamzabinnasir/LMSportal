@@ -1,0 +1,63 @@
+.editLecturePage {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.editLecturePageHead {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.editLecturePageHead h1 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+}
+
+.editLecturePageHead p {
+    color: var(--color-text-secondary);
+}
+
+.editLectureContainer {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+}
+
+.remLectDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-xl);
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: var(--spacing-lg);
+}
+
+.editlectureForm {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.starIcon {
+    font-size: var(--font-size-sm) !important;
+    color: var(--color-error);
+    margin-left: var(--spacing-xs);
+}
+
+.checkboxGroup {
+    flex-direction: row !important;
+    align-items: center;
+    gap: var(--spacing-sm) !important;
+}
+
+.checkboxGroup input {
+    width: auto;
+}
+
+.checkboxGroup label {
+    margin-bottom: 0;
+    cursor: pointer;
+}
